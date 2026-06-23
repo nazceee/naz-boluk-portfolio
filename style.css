@@ -311,3 +311,29 @@ body::after{
     right:80px;
     bottom:25%;
 }
+.content-wrapper{
+    position:relative;
+    max-width:1200px;
+    margin:auto;
+}
+
+.side-image{
+    position:absolute;
+    width:220px;
+}
+
+.side-image.left{
+    left:-240px;
+    top:50px;
+}
+
+.side-image.right{
+    right:-240px;
+    top:250px;
+}
+
+.side-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
