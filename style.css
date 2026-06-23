@@ -39,6 +39,26 @@ header{
     text-align:center;
     background:#f5f1eb;
     padding:20px;
+    header{
+    height:100vh;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.35),
+            rgba(0,0,0,0.35)
+        ),
+        url("yatak_odasi.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
 }
 
 header h1{
