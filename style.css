@@ -204,3 +204,25 @@ header h1{
     background:#967649;
     transform:translateY(-3px);
 }
+
+#hakkimda{
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 50px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+#hakkimda h2{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#hakkimda p{
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #555;
+    text-align: center;
+}
