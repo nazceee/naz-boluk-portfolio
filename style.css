@@ -31,15 +31,6 @@ nav a{
 }
 
 header{
-    height:90vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background:#f5f1eb;
-    padding:20px;
-    header{
     height:100vh;
 
     background:
@@ -58,6 +49,7 @@ header{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    text-align:center;
 }
 }
 
