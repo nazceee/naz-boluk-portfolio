@@ -337,3 +337,6 @@ body::after{
     border-radius:320px;
     box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
+.side-image{
+    margin-top:120px;
+}
