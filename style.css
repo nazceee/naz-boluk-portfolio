@@ -274,3 +274,22 @@ body::after{
     border-radius:50%;
     z-index:-1;
 }
+.decor-left{
+    position:fixed;
+    left:60px;
+    top:45%;
+    width:2px;
+    height:220px;
+    background:#c9b89d;
+    opacity:.4;
+}
+
+.decor-right{
+    position:fixed;
+    right:60px;
+    top:30%;
+    width:2px;
+    height:180px;
+    background:#c9b89d;
+    opacity:.4;
+}
