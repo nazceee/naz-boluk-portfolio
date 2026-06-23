@@ -293,3 +293,21 @@ body::after{
     background:#c9b89d;
     opacity:.4;
 }
+
+.quote-left,
+.quote-right{
+    position:fixed;
+    font-size:50px;
+    color:#c9b89d;
+    opacity:.3;
+}
+
+.quote-left{
+    left:80px;
+    top:40%;
+}
+
+.quote-right{
+    right:80px;
+    bottom:25%;
+}
