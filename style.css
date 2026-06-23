@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:white;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+}
+
+header{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#f5f1eb;
+    padding:20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+header p{
+    max-width:600px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    margin-top:20px;
+}
+}
+
+section{
+    padding: 80px  10%;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#f5f1eb;
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+#iletisim p{
+    margin-bottom:20px;
+}
+#iletisim{
+    line-height:2;
+}
+
+#iletisim{
+    text-align:center;
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #222;
+}
+#hizmetler{
+    text-align:center;
+}
+
+#hizmetler ul{
+    list-style:none;
+    padding:0;
+}
+
+#hizmetler li{
+    margin:15px 0;
+}
+
+header{
+    height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.35)
+    ),
+    url("images/yatak_odasi.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+nav a{
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#b08d57;
+}
