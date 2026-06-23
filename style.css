@@ -242,3 +242,35 @@ body{
 .proje:hover{
     transform:translateY(-10px);
 }
+/* Genel arka plan */
+body{
+    background:#f5f1eb;
+    position:relative;
+    overflow-x:hidden;
+}
+
+/* Sol dekor */
+body::before{
+    content:"";
+    position:fixed;
+    left:-150px;
+    top:200px;
+    width:350px;
+    height:350px;
+    border:2px solid rgba(180,160,130,0.2);
+    border-radius:50%;
+    z-index:-1;
+}
+
+/* Sağ dekor */
+body::after{
+    content:"";
+    position:fixed;
+    right:-180px;
+    bottom:100px;
+    width:450px;
+    height:450px;
+    border:2px solid rgba(180,160,130,0.15);
+    border-radius:50%;
+    z-index:-1;
+}
