@@ -235,3 +235,10 @@ header h1{
 body{
     background:#f8f5f1;
 }
+.proje{
+    transition:0.3s;
+}
+
+.proje:hover{
+    transform:translateY(-10px);
+}
